@@ -1,0 +1,118 @@
+Body {
+    background: linear-gradient(to right , blue,lightgreen); 
+}
+.container {
+    max-width: 1600px;
+    margin: 10;
+    padding: 0;
+
+}
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.nav_menu li {
+    min-width: 6em;
+    float: left;
+    margin-right:0.5em;
+    text-align: center;
+   
+    
+    
+}
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    
+    background-color: black;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding:0.7em;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5)
+    
+}
+
+.nav_menu li a:hover {
+    background-color: royalblue;
+    transform : scale(1.1,1.1);
+}
+
+nav_menu a{
+    width: 80px;
+    display: block;
+
+}
+
+.clear {
+    clear: both;
+}
+#logo {
+    margin-left: 300px;
+    margin-right:370px;
+    box-shadow: 10px 10px 10px #888;
+    
+}
+#WelcomeDiv {
+    background-color: lightskyblue;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #888;
+    border-radius: 10px;
+        
+}
+#newsletter {
+    background-color: rgb(128, 129, 221);
+    padding: 30px;
+    float: left;
+    padding: 5px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px #888;
+    border-radius: 5px;
+    text-size-adjust: 2em;
+
+}
+#leftDiv {
+    background-color: lightskyblue;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #888;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin-left: 50px;
+    border: 2px solid;
+
+}
+
+#rightDiv {
+    background-color: lightskyblue;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #888;
+    border-radius: 10px;
+    float: right;
+    width: 40%;
+    height: 300px;
+    margin-right: 100px;
+    border: 2px solid;
+    
+}
+
+Footer {
+     background-color: lightskyblue;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #888;
+     border-radius: 10px;
+    margin: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
