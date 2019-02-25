@@ -7,7 +7,7 @@
 <body>
     
     <?php
-        $myEmailAddress = "siddharthaswal54@gmail.com";
+        $myEmailAddress = "sean.t.mccammon@gmail.com";
         $subject = "Question from Just Do It!";
 
         $name = $_POST['Name'];
